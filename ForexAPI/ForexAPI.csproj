@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="ForexGUI">
+      <HintPath>..\ForexGUI\bin\Debug\net8.0\ForexGUI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

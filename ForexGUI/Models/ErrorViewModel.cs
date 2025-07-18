@@ -12,4 +12,13 @@ namespace ForexGUI.Models
         public string Password { get; set; }
     }
 
+    public class ApiResponse
+    {
+        public bool success { get; set; }
+        public string? RedirectUrl { get; set; }
+        public string? message { get; set; }
+        public string? Token { get; set; }
+    }
+
+
 }

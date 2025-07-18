@@ -1,4 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
+using System.Reflection;
+using ForexGUI.Models;
 
 namespace ForexAPI.Controllers
 {
@@ -29,5 +32,26 @@ namespace ForexAPI.Controllers
             })
             .ToArray();
         }
+
+
+
+
+        [HttpPost("Authentication")]
+        public IActionResult Login(LoginViewModel model)
+        {
+            if (model.EmailId == "test@example.com" && model.Password == "12345")
+            {
+                return Ok(new
+                {
+                    success = true,
+                   
+                    redirectUrl = "/AdminDashboard/AdminDashboard"
+                });
+            }
+            return Unauthorized(new { success = false, message = "Invalid username or password" });
+        }
+
+
+
     }
 }

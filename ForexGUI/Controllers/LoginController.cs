@@ -31,20 +31,38 @@ namespace ForexGUI.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login([FromBody] LoginViewModel model)
+        public async Task<IActionResult> Login([FromBody] LoginViewModel model)
         {
             if (string.IsNullOrEmpty(model.EmailId) || string.IsNullOrEmpty(model.Password))
             {
                 return Json(new { success = false, message = "Email & Password are required" });
             }
 
-            // Dummy login check (replace with DB or Identity)
-            if (model.EmailId == "test@example.com" && model.Password == "12345")
+            using (var client = new HttpClient())
             {
-                return Json(new { success = true, message = "Login successful", redirectUrl = Url.Action("AdminDashboard", "AdminDashboard") });
+                client.BaseAddress = new Uri("http://localhost:5209/");
+                var response = await client.PostAsJsonAsync("WeatherForecast/Authentication", model);
+                if (response.IsSuccessStatusCode)
+                {
+                    var result = await response.Content.ReadFromJsonAsync<ApiResponse>();
+                    if (result != null && result.success)
+                    {
+                        
+                        return Json(new { success = true, redirectUrl = result.RedirectUrl });
+                    }
+                    else
+                    {
+                        return Json(new { success = false, message = result?.message ?? "Unknown error" });
+                    }
+                }
+                else
+                {
+                    return Json(new { success = false, message = "API login failed" });
+                }
+
             }
 
-            return Json(new { success = false, message = "Invalid Email or Password" });
+ 
         }
 
 
