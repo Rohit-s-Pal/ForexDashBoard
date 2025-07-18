@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <BaseOutputPath>C:\Workspace\Project\Property\PropertyAcresServices\Deliverables</BaseOutputPath>
+	  <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+	  <OutputPath>..\..\Deliverables\</OutputPath>
+
+	  <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	  <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
+	  <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ForexINFOAPI">
+      <HintPath>..\..\Deliverables\ForexINFOAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NET.Shared">
+      <HintPath>..\..\Deliverables\NET.Shared.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IForexAPI", "IForexAPI.csproj", "{95CCA75F-3676-A6AC-F268-CB9E5FEDF90C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95CCA75F-3676-A6AC-F268-CB9E5FEDF90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95CCA75F-3676-A6AC-F268-CB9E5FEDF90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95CCA75F-3676-A6AC-F268-CB9E5FEDF90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95CCA75F-3676-A6AC-F268-CB9E5FEDF90C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4A5D0FA-6970-42EC-AE68-F4DD384A1A7A}
+	EndGlobalSection
+EndGlobal
