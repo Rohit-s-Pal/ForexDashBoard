@@ -41,7 +41,7 @@ namespace ForexGUI.Controllers
             // Dummy login check (replace with DB or Identity)
             if (model.EmailId == "test@example.com" && model.Password == "12345")
             {
-                return Json(new { success = true, message = "Login successful", redirectUrl = Url.Action("UserDashboard", "UserDashboard") });
+                return Json(new { success = true, message = "Login successful", redirectUrl = Url.Action("AdminDashboard", "AdminDashboard") });
             }
 
             return Json(new { success = false, message = "Invalid Email or Password" });
