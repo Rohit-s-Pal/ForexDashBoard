@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using IPropertyAPI;
-using PropertyINFOAPI;
+using IForexAPI;
+using ForexINFOAPI;
+using BLForexApi;
 
-namespace BLPropertyApi
+namespace BLPropBLForexApiertyApi
 {
     public class DashboardBL : IDashboard
     {

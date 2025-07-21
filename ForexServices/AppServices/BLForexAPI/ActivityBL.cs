@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IPropertyAPI;
-using PropertyINFOAPI;
+using IForexAPI;
+using ForexINFOAPI;
 using System.Data;
 using NET.Shared;
 
 
-namespace BLPropertyApi
+namespace BLForexApi
 {
     public class ActivityBL : IActivity
     {

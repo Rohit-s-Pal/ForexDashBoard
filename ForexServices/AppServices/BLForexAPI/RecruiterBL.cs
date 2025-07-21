@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using IPropertyAPI;
+using IForexAPI;
 
-using PropertyINFOAPI;
+using ForexINFOAPI;
 
-namespace BLPropertyApi
+namespace BLForexApi
 {
     public class RecruiterBL : IRecruiter
     {

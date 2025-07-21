@@ -15,20 +15,23 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Reference Include="DALPropertyAPI">
-	    <HintPath>..\..\Deliverables\DALPropertyAPI.dll</HintPath>
+	  <Reference Include="DALForexAPI">
+	    <HintPath>..\..\Deliverables\DALForexAPI.dll</HintPath>
 	  </Reference>
-	  <Reference Include="IPropertyAPI">
-	    <HintPath>..\..\Deliverables\IPropertyAPI.dll</HintPath>
+	  <Reference Include="DBAccessLib">
+	    <HintPath>..\..\Deliverables\DBAccessLib.dll</HintPath>
+	  </Reference>
+	  <Reference Include="ForexINFOAPI">
+	    <HintPath>..\..\Deliverables\ForexINFOAPI.dll</HintPath>
+	  </Reference>
+	  <Reference Include="IForexAPI">
+	    <HintPath>..\..\Deliverables\IForexAPI.dll</HintPath>
 	  </Reference>
 	  <Reference Include="NET.Shared">
 	    <HintPath>..\..\Deliverables\NET.Shared.dll</HintPath>
 	  </Reference>
-	  <Reference Include="PropertyINFOAPI">
-	    <HintPath>..\..\Deliverables\PropertyINFOAPI.dll</HintPath>
-	  </Reference>
-	  <Reference Include="VALDPropertyAPI">
-	    <HintPath>..\..\Deliverables\VALDPropertyAPI.dll</HintPath>
+	  <Reference Include="VALDForexAPI">
+	    <HintPath>..\..\Deliverables\VALDForexAPI.dll</HintPath>
 	  </Reference>
 	</ItemGroup>
 

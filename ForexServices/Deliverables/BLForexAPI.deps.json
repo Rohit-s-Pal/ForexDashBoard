@@ -1,0 +1,122 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BLForexAPI/1.0.0": {
+        "dependencies": {
+          "DALForexAPI": "1.0.0.0",
+          "DBAccessLib": "1.0.0.0",
+          "ForexINFOAPI": "1.0.0.0",
+          "IForexAPI": "1.0.0.0",
+          "NET.Shared": "1.0.0.25525",
+          "VALDForexAPI": "1.0.0.0"
+        },
+        "runtime": {
+          "BLForexAPI.dll": {}
+        }
+      },
+      "DALForexAPI/1.0.0.0": {
+        "runtime": {
+          "DALForexAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DBAccessLib/1.0.0.0": {
+        "runtime": {
+          "DBAccessLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ForexINFOAPI/1.0.0.0": {
+        "runtime": {
+          "ForexINFOAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IForexAPI/1.0.0.0": {
+        "runtime": {
+          "IForexAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NET.Shared/1.0.0.25525": {
+        "runtime": {
+          "NET.Shared.dll": {
+            "assemblyVersion": "1.0.0.25525",
+            "fileVersion": "1.0.0.25525"
+          }
+        }
+      },
+      "VALDForexAPI/1.0.0.0": {
+        "runtime": {
+          "VALDForexAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Dapper/1.50.2.0": {
+        "runtime": {
+          "Dapper.dll": {
+            "assemblyVersion": "1.50.2.0",
+            "fileVersion": "1.50.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLForexAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DALForexAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBAccessLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ForexINFOAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IForexAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NET.Shared/1.0.0.25525": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VALDForexAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Dapper/1.50.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLForexAPI", "..\AppServices\BLForexAPI\BLForexAPI.csproj", "{2BE41F9B-7300-3211-F778-273F018BB308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALForexAPI", "..\AppServices\DALForexAPI\DALForexAPI.csproj", "{96230C79-9BC6-D403-76B8-8A4B3AD46E21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForexINFOAPI", "..\AppServices\ForexINFOAPI\ForexINFOAPI.csproj", "{85C2E975-B85B-BB0A-3416-7E1A318E93B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IForexAPI", "..\AppServices\IForexAPI\IForexAPI.csproj", "{470AC76A-BC11-BDB4-E540-D3BE97EF4273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VALDForexAPI", "..\AppServices\VALDForexAPI\VALDForexAPI.csproj", "{86F4CCB7-9C0C-DA23-F47A-E062404093CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE41F9B-7300-3211-F778-273F018BB308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE41F9B-7300-3211-F778-273F018BB308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE41F9B-7300-3211-F778-273F018BB308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE41F9B-7300-3211-F778-273F018BB308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96230C79-9BC6-D403-76B8-8A4B3AD46E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96230C79-9BC6-D403-76B8-8A4B3AD46E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96230C79-9BC6-D403-76B8-8A4B3AD46E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96230C79-9BC6-D403-76B8-8A4B3AD46E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85C2E975-B85B-BB0A-3416-7E1A318E93B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C2E975-B85B-BB0A-3416-7E1A318E93B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C2E975-B85B-BB0A-3416-7E1A318E93B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C2E975-B85B-BB0A-3416-7E1A318E93B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{470AC76A-BC11-BDB4-E540-D3BE97EF4273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{470AC76A-BC11-BDB4-E540-D3BE97EF4273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{470AC76A-BC11-BDB4-E540-D3BE97EF4273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{470AC76A-BC11-BDB4-E540-D3BE97EF4273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86F4CCB7-9C0C-DA23-F47A-E062404093CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86F4CCB7-9C0C-DA23-F47A-E062404093CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86F4CCB7-9C0C-DA23-F47A-E062404093CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86F4CCB7-9C0C-DA23-F47A-E062404093CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00EFE185-7149-4AD2-A16D-5916E0CDDF8D}
+	EndGlobalSection
+EndGlobal

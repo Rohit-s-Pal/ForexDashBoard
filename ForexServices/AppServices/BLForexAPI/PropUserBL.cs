@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BLPropertyApi;
-using IPropertyAPI;
-using PropertyINFOAPI;
+using BLForexApi;
+using IForexAPI;
+using ForexINFOAPI;
 
-namespace BLPropertyAPI
+namespace BLForexApi
 {
     public class PropUserBL : IPropUserLogin
     {

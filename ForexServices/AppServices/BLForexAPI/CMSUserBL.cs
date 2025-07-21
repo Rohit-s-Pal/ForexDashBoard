@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using PropertyINFOAPI;
-using IPropertyAPI;
+using ForexINFOAPI;
+using IForexAPI;
 
-namespace BLPropertyApi
+namespace BLForexApi
 {
     public class CMSUserBL : ICMSUser
     {

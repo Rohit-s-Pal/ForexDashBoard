@@ -1,0 +1,187 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DALForexAPI/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.5",
+          "System.Data.Odbc": "9.0.5",
+          "Dapper": "1.50.2.0",
+          "DBAccessLib": "1.0.0.0",
+          "ForexINFOAPI": "1.0.0.0",
+          "IForexAPI": "1.0.0.0",
+          "NET.Shared": "1.0.0.25525",
+          "Shared.DataAccess": "1.1.0.0",
+          "VALDForexAPI": "1.0.0.0"
+        },
+        "runtime": {
+          "DALForexAPI.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.5": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.525.21509"
+          }
+        }
+      },
+      "System.Data.Odbc/9.0.5": {
+        "runtime": {
+          "lib/net8.0/System.Data.Odbc.dll": {
+            "assemblyVersion": "9.0.0.5",
+            "fileVersion": "9.0.525.21509"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net8.0/System.Data.Odbc.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.5",
+            "fileVersion": "9.0.525.21509"
+          },
+          "runtimes/win/lib/net8.0/System.Data.Odbc.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.5",
+            "fileVersion": "9.0.525.21509"
+          }
+        }
+      },
+      "Dapper/1.50.2.0": {
+        "runtime": {
+          "Dapper.dll": {
+            "assemblyVersion": "1.50.2.0",
+            "fileVersion": "1.50.2.0"
+          }
+        }
+      },
+      "DBAccessLib/1.0.0.0": {
+        "runtime": {
+          "DBAccessLib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ForexINFOAPI/1.0.0.0": {
+        "runtime": {
+          "ForexINFOAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "IForexAPI/1.0.0.0": {
+        "runtime": {
+          "IForexAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "NET.Shared/1.0.0.25525": {
+        "runtime": {
+          "NET.Shared.dll": {
+            "assemblyVersion": "1.0.0.25525",
+            "fileVersion": "1.0.0.25525"
+          }
+        }
+      },
+      "Shared.DataAccess/1.1.0.0": {
+        "runtime": {
+          "Shared.DataAccess.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
+          }
+        }
+      },
+      "VALDForexAPI/1.0.0.0": {
+        "runtime": {
+          "VALDForexAPI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DALForexAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ew0G6gIznnyAkbIa67wXspkDFcVektjN3xaDAfBDIPbWph+rbuGaaohFxUSGw28ht7wdcWtTtElKnzfkcDDbOQ==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.5",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b4OAv1qE1C9aM+ShWJu3rlo/WjDwa/I30aIPXqDWSKXTtKl1Wwh6BZn+glH5HndGVVn3C6ZAPQj5nv7/7HJNBQ==",
+      "path": "microsoft.extensions.primitives/9.0.5",
+      "hashPath": "microsoft.extensions.primitives.9.0.5.nupkg.sha512"
+    },
+    "System.Data.Odbc/9.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CRjplFrr7wZEX/Ixs7gYGTcvF+m94p373XjiU8kB6tu0/uHYe41HHC7FisfIUiGvszotj8t3kkU3LvJJDnPlOg==",
+      "path": "system.data.odbc/9.0.5",
+      "hashPath": "system.data.odbc.9.0.5.nupkg.sha512"
+    },
+    "Dapper/1.50.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DBAccessLib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ForexINFOAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IForexAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NET.Shared/1.0.0.25525": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shared.DataAccess/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VALDForexAPI/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
