@@ -41,7 +41,7 @@ namespace ForexGUI.Controllers
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("http://localhost:5209/");
-                var response = await client.PostAsJsonAsync("WeatherForecast/Authentication", model);
+                var response = await client.PostAsJsonAsync("api/Login/Login", model);
                 if (response.IsSuccessStatusCode)
                 {
                     var result = await response.Content.ReadFromJsonAsync<ApiResponse>();
