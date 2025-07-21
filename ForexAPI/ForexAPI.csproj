@@ -7,12 +7,31 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="BLForexAPI">
+      <HintPath>..\ForexServices\Deliverables\BLForexAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DALForexAPI">
+      <HintPath>..\ForexServices\Deliverables\DALForexAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="DBAccessLib">
+      <HintPath>..\ForexServices\Deliverables\DBAccessLib.dll</HintPath>
+    </Reference>
     <Reference Include="ForexGUI">
       <HintPath>..\ForexGUI\bin\Debug\net8.0\ForexGUI.dll</HintPath>
+    </Reference>
+    <Reference Include="ForexINFOAPI">
+      <HintPath>..\ForexServices\Deliverables\ForexINFOAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="IForexAPI">
+      <HintPath>..\ForexServices\Deliverables\IForexAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="NET.Shared">
+      <HintPath>..\ForexServices\Deliverables\NET.Shared.dll</HintPath>
     </Reference>
   </ItemGroup>
 

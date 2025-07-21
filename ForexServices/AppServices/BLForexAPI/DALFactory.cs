@@ -34,6 +34,12 @@ namespace BLForexApi
             IPropUserLogin IPropUserLogin = new PropUserDAL();
             return IPropUserLogin;
         }
+        
+        internal static IForexLogin GetForexUserDAL()
+        {
+            IForexLogin IForexLogin = new ForexLoginDAL();
+            return IForexLogin;
+        }
 
         internal static IRecruiter GetRecruiterDAL()
         {
